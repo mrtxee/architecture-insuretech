@@ -14,6 +14,7 @@
 Масштабирование числа подсов
 ![minikube-dashboard-1](minikube-dashboard.png)
 ![minikube-dashboard-2](minikube-dashboard-2.png)
+![minikube-dashboard-3](minikube-dashboard-3.png)
 
 ## Запуск теста hpa-масштабирования кластера
 
@@ -21,6 +22,9 @@
 ```bash
 # ### Запуск тестов
 locust -f locustfile.py --host=http://172.20.23.69:31954/
+.venv\Scripts\Activate.ps1
+
+
 
 # ### metrics-server
 minikube addons enable metrics-server
@@ -28,7 +32,7 @@ minikube addons enable metrics-server
 #You can view the list of minikube maintainers at: https://github.com/kubernetes/minikube/blob/master/OWNERS
 #    ▪ Используется образ registry.k8s.io/metrics-server/metrics-server:v0.8.0
 #🌟  The 'metrics-server' addon is enabled
-minikube service scaletestapp-service  --url
+minikube service scaletestapp-service --url
 # http://172.20.23.69:31954
 # # Идентификатор пода: scaletestapp-deployment-767758bf98-lcx8j
 
