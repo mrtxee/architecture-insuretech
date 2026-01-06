@@ -16,7 +16,7 @@ python -m venv .venv
 
 ## установка основных компонентов
 ```bash
-
+kubectl version --client
 minikube status
 # minikube start --vm-driver=virtualbox
 # choco install virtualbox
