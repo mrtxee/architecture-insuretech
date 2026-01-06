@@ -233,15 +233,19 @@
         </object>
         <object placeholders="1" c4Name="Events Stream Container" c4Type="Container" c4Technology="Apache Kafka" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="Dfr2G5SAr4MO_AsWDj1c-0">
           <mxCell parent="HyhLIUHD2zx6n51Fy57c-1" style="shape=cylinder3;size=15;direction=south;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1">
-            <mxGeometry height="120" width="240" x="838" y="430" as="geometry" />
+            <mxGeometry height="120" width="240" x="853" y="430" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="057ue_EKs6gQFm_cdjaU-0" edge="1" parent="HyhLIUHD2zx6n51Fy57c-1" source="HyhLIUHD2zx6n51Fy57c-4" style="endArrow=block;startArrow=block;html=1;rounded=0;startFill=1;endFill=1;" target="Dfr2G5SAr4MO_AsWDj1c-0" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="800" y="360" as="sourcePoint" />
-            <mxPoint x="850" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="kafka" c4Description="kafka-api" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="HA8zq2oHH4cdumwLQ7m8-1">
+          <mxCell edge="1" parent="HyhLIUHD2zx6n51Fy57c-1" source="HyhLIUHD2zx6n51Fy57c-4" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;startArrow=block;startFill=1;" target="Dfr2G5SAr4MO_AsWDj1c-0">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <mxPoint x="-1" as="offset" />
+              <Array as="points" />
+              <mxPoint x="750" y="480" as="sourcePoint" />
+              <mxPoint x="914" y="480" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
